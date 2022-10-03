@@ -1,0 +1,8 @@
+- object-fit:The object-fit CSS property sets
+    how the content of a replaced element, such as an <img> or <video>, 
+    should be resized to fit its container.
+    object-fit: fill;
+    object-fit: cover;
+    object-fit: none;
+    object-fit: contain;
+    object-fit: scale-down;
