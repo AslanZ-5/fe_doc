@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(75, 71, 71);
+}
+.grid-item{
+    height: 4rem;
+    background-color: rgb(56, 56, 139);
+    border: 0.1rem solid black;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1fr 2fr 3fr;
+    /* grid-template-rows: 100px 200px 300px ; */
+    grid-auto-rows: 400px;
+}
