@@ -1,7 +1,11 @@
 .grid-container{
     display: grid;
     height: 400px;
-    align-content: ;
     
+    
+}
+
+div > p{
+    color:yellow;
 }
 
