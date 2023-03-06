@@ -1,0 +1,46 @@
+.check{
+  display: block;
+  margin-top:.6rem;
+  padding-left:1.2em;
+}
+
+.check__input {
+  position:absolute;
+  width:1px;
+  height:1px;
+  outline:hidden;
+  overflow: hidden;
+  clip: rect(0,0,0)
+}
+.check__box {
+  position:absolute;
+  width:1em;
+  height:1em;
+  background-color: #fff;
+  margin-left: -1.2em;
+  box-shadow: 0 0 0 0.1em #4a90e2;
+}
+.check__input:checked + .check__box{
+    background-image: url(../../src/icon3.svg);
+    background-color: #4a90e2;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    background-color: #4a90e2
+
+}
+.check__input:focus + .check__box{
+  box-shadow: 0 0 0 0.1em #4a90e2,0 0 0 0.2em #7ed321;
+}
+.check__input:checked:focus + .check__box{
+  box-shadow: 0 0 0 0.1em #4a90e2,0 0 0 0.2em #7ed321;
+}
+
+.check__input:disabled + .check__box{
+  box-shadow: 0 0 0 0.1em #989898;
+}
+.check__input:checked:disabled + .check__box{
+  background-color: #989898
+}
+.check__input:focus {
+  outline:none;
+}
